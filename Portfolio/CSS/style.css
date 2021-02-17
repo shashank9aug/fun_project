@@ -1,0 +1,44 @@
+body {
+  background-color: #bee5d3;
+  text-align: center;
+  padding-top: 60px;
+}
+
+h1 {
+  width: 50%;
+  font-family: 'Sacramento', cursive;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    position: relative;
+    padding-right: 100px;
+    padding: 5px;
+}
+.middle-container{
+
+}
+.Skills{
+
+}
+.navigation{
+  border: solid 5px;
+}
+a1:hover{
+  color: ;
+}
+.contact-me{
+
+
+}
+.top-cloud {
+   position: absolute;
+   
+}
+
+.bottom-cloud {
+   position: absolute;
+}
