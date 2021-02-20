@@ -42,7 +42,15 @@ h1{
     outline: none;
     text-align: left;
 }
-  
+
+#keys:active{
+    background-color: #e7c70d8e;
+    transform: rotate(40deg);
+}
+#equal:active{
+    background-color: #9af35e8e;
+    transform: rotate(-30deg);
+}
 #equal{
     width: 150px;
     height: 35px;
@@ -58,4 +66,4 @@ h3{
     border:3px solid rgb(33, 2, 90);
     border-radius: 3px;
     width: 150px;
-}    
+}
