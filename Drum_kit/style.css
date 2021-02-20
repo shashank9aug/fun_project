@@ -25,10 +25,10 @@ button{
     margin-top: 100px;
     padding: 10px;
     margin-left: 100px;
-    background: rgba(255, 255, 255, 0.938);
+    background: rgba(18, 144, 153, 0.938);
     display: inline-flex;
     justify-content: space-evenly;
-    font-size: 2.5em;
+    font-size: 5em;
     text-decoration-color: #DA0463;
     border-radius: 5px;
     box-shadow: 5em;
@@ -61,3 +61,7 @@ h1{
     text-shadow: 2px 0 #DA0463;
 }
 
+.pressed{
+    box-shadow: 0px 3px 4px 0px #1a1416;
+    opacity:initial ;
+}
