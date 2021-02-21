@@ -18,7 +18,7 @@ h1{
     padding: 20px;
     border-radius: 20px;
     margin: 80px auto;
-    box-shadow: 0px 0px 3px 6px rgba(145, 132, 132, 0.8)
+    box-shadow: 0px 0px 3px 6px rgba(165, 156, 156, 0.8)
 }
   
 #display{
@@ -63,7 +63,7 @@ h3{
     display: block;
     text-shadow: 2px solid black;
     margin-left: 90px;
-    border:3px solid rgb(33, 2, 90);
+    border:3px solid rgb(230, 227, 236);
     border-radius: 3px;
     width: 150px;
 }
