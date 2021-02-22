@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black; 
+    width: 900px;
+    height: 50px;
+    border: 5px solid rgb(179, 166, 166);
+}
+  
+
+.container{
+    width: 900px;
+    height: 300px;
+    background-color:aquamarine;
+    border: 5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    z-index: 5;
+}
+
+.slot{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    border: 5px solid bisque;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-size: 100pt;
+    z-index: 2;
+    overflow: hidden;
+}
+
+/* CSS variable  it is defined in the root of page*/
+:root{
+    --speed:4;
+}
+.value{
+    z-index: -2;
+    animation: emoji;
+    animation-iteration-count: infinite;
+    animation-duration: calc(1s/var(--speed));
+}
+
+@keyframes emoji{
+    0%{
+         transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(200px);   
+    }
+}
+
+input{
+    margin-top: 15px;
+    padding: 5px;
+    width: 70px;
+    height: 40px;
+    background-color: rgb(38, 230, 214);
+    font-size: 15pt;
+    border: 3px solid grey;
+}
+button{
+    height: fit-content;
+    width: fit-content;
+    font-size: 20pt;
+    background-color: rgb(52, 248, 248);
+    color:blue;
+}
+
