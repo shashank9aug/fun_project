@@ -57,8 +57,9 @@ app.get("/post/:postName",(req,res)=>{
 
     if(storeTitle===requestedTitle){
       res.render("post",{
-        
-      }
+        title: post.title,
+        content: post.content
+      })
     }
   })
 
